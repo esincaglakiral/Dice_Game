@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="diceGame.css">
+    <script src="diceGame.js" defer></script>
+    <title>Dice Game</title>
+</head>
+<body>
+    <center>
+    <div id="scoreTable">
+        <div id="firstScore">
+            <span>First Player's Score</span>
+            <br><br>
+            <span>0</span>
+
+        </div>
+        <div id="secondScore">
+            <span>Second Player's Score</span>
+            <br><br>
+            <span>0</span>
+
+
+        </div>
+    </div>
+</center>
+
+<div id="playGround">
+    <div id="firstPlayerToPlay">
+        <span>First Player</span>
+        <br><br>
+        <img src="Dice Pictures/dice1.jpg" alt="">
+        <br><br>
+        <button onclick="Shake(1)">Shake</button>
+        <br><br>
+        <button onclick="roll()">Roll The Dice</button>
+
+    </div>
+
+
+    <div id="secondPlayerToPlay">
+        <span>Second Player</span>
+        <br><br>
+        <img src="Dice Pictures/dice1.jpg" alt="">
+        <br><br>
+        <button onclick="Shake(2)">Shake</button>
+        <br><br>
+        <button onclick="roll()">Roll The Dice</button>
+
+
+
+    </div>
+
+
+
+
+</div>
+</body>
+</html>

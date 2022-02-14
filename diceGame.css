@@ -1,0 +1,104 @@
+/* div{
+    border: solid 3px orange;
+} */
+
+
+body{
+    background-color: rgb(27, 66, 27);
+}
+#scoreTable{
+    display: inline-block;
+    height: auto;
+    width: auto;
+    background-color: rgb(97, 14, 14);
+    box-shadow: 4px 4px 10px #000;
+}
+
+#scoreTable div{
+    width: 200px;
+    height: 250px;
+    float: left; /*for our div tags to be side by side*/
+    margin: 25px;
+}
+
+#firstScore{
+    color: rgb(97, 14, 14);
+    background-color: rgb(213, 243, 166);
+}
+
+#secondScore{
+    color: rgb(97, 14, 14);
+    background-color: rgb(243, 225, 166);
+}
+
+div span:nth-child(1){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(97, 14, 14);
+}
+
+#scoreTable div span:nth-child(4){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(97, 14, 14);
+    display: block;
+    margin-top: 50px;
+}
+#playGround{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+    margin-top: 80px;
+}
+
+#playGround div{
+    width: 210px;
+    height: 300px;
+
+}
+
+#firstPlayerToPlay{
+    border: solid 3px rgb(97, 14, 14);
+    text-align: center;
+    background-color: rgb(213, 243, 166);
+    box-shadow: 4px 4px 10px #000;
+}
+
+#secondPlayerToPlay{
+    border: solid 3px rgb(97, 14, 14);
+    text-align: center;
+    background-color: rgb(243, 225, 166);
+    box-shadow: 4px 4px 10px #000;
+}
+
+img{
+    width: 95px;
+    height: 100px;
+}
+
+button{
+  
+    width: 90%;
+    height: 50px;
+    background-color: rgb(243, 239, 214);
+    color: rgb(97, 14, 14);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border: solid 1px rgb(27, 66, 27);
+    transition-duration: 0.4s;
+    border-radius: 6px;
+    outline: none;
+}
+
+button:hover{
+    background-color: rgb(27, 66, 27);
+    color:  rgb(243, 239, 214);
+    transition-duration: 0.4s;
+}
+
+
