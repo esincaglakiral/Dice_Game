@@ -6,3 +6,6 @@ The number of dice changes very quickly and a number comes randomly. then the se
 Meanwhile, players can see their up-to-date scores on each roll of the dice from the leaderboard. 
 This game goes on mutually for a while and of course it must have an end, right? it shouldn't go on forever :) 
 Then I announce the winner: whichever player scores 50 or more points first is the winner. and a notification will appear at the top describing the winner.
+![MyImg](https://user-images.githubusercontent.com/68962573/153967225-8c0ce701-d020-4cab-87cb-5bf0190a0dde.png)
+![MyImg2](https://user-images.githubusercontent.com/68962573/153967229-63eb256d-3648-4777-858a-22d1f1a9775c.png)
+![MyImg3](https://user-images.githubusercontent.com/68962573/153967232-16e46e6a-bd10-46fd-82ea-bb0b65cdde0c.png)
